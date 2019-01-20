@@ -29,8 +29,7 @@
 	padding: 5px 13px;
 }
 .box-frsl{
-  background-color: white; /* Green */
-  border: none;
+  background-color: white; 
   color: black;
   padding: 5px 10px;
   text-align: center;
@@ -38,6 +37,43 @@
   display: inline-block;
   width: 100%;
   border: 1px solid;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.box-frsl:hover {
+  background-color: gray;
+  color: white;
+}
+
+.p-srt{
+  color: black;
+  margin-top: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid;
+  font-size: 14px;
+}
+
+.bhk{
+	padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid;
+  font-size: 14px;
+}
+
+.box-mm{
+	padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid;
+  font-size: 14px;
 }
