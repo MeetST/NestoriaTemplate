@@ -43,7 +43,7 @@
 	            			<i class="glyphicon glyphicon-search"></i>
 	          			</button>
         			</div>
-        			<input type="text" size="80" class="form-control" placeholder="Ahmedabad" name="search">
+        			<input type="text" size="80" class="form-control" value="Ahmedabad" name="search">
         			<div class="input-group-btn">
 	          			<button class="btn btn-default" type="submit" style="border-left: none;color:#0073d9">| Change</button>
         			</div>
@@ -68,7 +68,7 @@
 
 	<div style="background-color: #e7e7e7;padding: 10px;">
 		<div class="row" style="margin:1px;">
-			<div class="col-md-3" style="margin-top: 10px">
+			<div class="col-md-3 col-sm-3 col-xs-3" style="margin-top: 10px">
 				<button class="box-frsl"> For Sale </button>
 				<button class="box-frsl"> For Rent </button>
 
@@ -82,34 +82,36 @@
 
 				<p style="margin-top: 30px"> BHK </p>
 				<div class="row row-no-gutters">
-					<div class="col-md-6">
-						<span class="bhk">1</span>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<button class="bhk">1</button>
 					</div>
-					<div class="col-md-6">
-						<span class="bhk">2</span>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<button class="bhk">2</button>
 					</div>
 				</div>
 				<div class="row row-no-gutters">
-					<div class="col-md-6">
-						<span class="bhk">3</span>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<button class="bhk">3</button>
 					</div>
-					<div class="col-md-6">
-						<span class="bhk">4+</span>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<button class="bhk">4+</button>
 					</div>
 				</div>
 
 				<p style="margin-top: 20px"> Size(sq.foot) </p>
 				<div class="row row-no-gutters">
-					<div class="col-md-3 box-mm">Min</div>
-					<div class="col-md-9"><input type="text" class="form-control" placeholder="sq.ft"></div>
-					<div class="col-md-3 box-mm">Max</div>
-					<div class="col-md-9"><input type="text" class="form-control" placeholder="sq.ft"></div>
+					<div class="col-md-3 col-sm-3 col-xs-3 box-mm">Min</div>
+					<div class="col-md-9 col-sm-9 col-xs-9"><input type="text" class="form-control" placeholder="sq.ft"></div>
+					<div class="col-md-3 col-sm-3 col-xs-3 box-mm">Max</div>
+					<div class="col-md-9 col-sm-9 col-xs-9"><input type="text" class="form-control" placeholder="sq.ft"></div>
+					
+					
 				</div>
 
 				<p style="margin-top: 20px"> Price(₹ / monthly) </p>
 				<div class="row row-no-gutters">
-					<div class="col-md-3 box-mm">Min</div>
-					<div class="col-md-9">
+					<div class="col-md-3 col-sm-3 col-xs-3 box-mm">Min</div>
+					<div class="col-md-9 col-sm-9 col-xs-9">
 						<select class="p-srt" style="margin-top: 0px">
 							  <option value="0">0</option>
 							  <option value="10000">10000</option>
@@ -120,13 +122,15 @@
 				</div>
 			</div>
 
-			<div class="col-md-9" style="margin-top: 10px;padding-left: 30px;">
+
+
+			<div class="col-md-9 col-sm-9 col-xs-9" style="margin-top: 10px;padding-left: 30px;">
 
 				<div class="row">
-					<div class="col-md-9">
+					<div class="col-md-9 col-sm-9 col-xs-9">
 						<p> 3,905 properties for rent in Ahmedabad</p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-3 col-xs-3">
 						<select  style="margin-top: 0px;float: right;">
 						  <option value="0">This area only</option>
 						  <option value="10000">Within 1 km</option>
@@ -144,12 +148,12 @@
 					</ul>
 				</div>
 
-				<div class="row row-no-gutters ">
-					<div class="col-md-3 ">
+				<div class="row row-no-gutters is-flex">
+					<div class="col-md-3 col-sm-3 col-xs-3">
 						<img src="image1.jpg" style="width: 100%;height: 100%">
 					</div>
 
-					<div class="col-md-6 " style="background-color: white;padding-left: 10px">
+					<div class="col-md-6 col-sm-6 col-xs-6" style="background-color: white;padding-left: 10px">
 						<a href="#" class="main-link">Navrangpura, Ahmedabad West, Ahmedabad</a>
 						<p>
 							<span style="font-weight: bold;">Ahmedabad</span> 
@@ -163,19 +167,23 @@
 						<p><span style="color: orange">first seen yesterday</span> on MAKAAN</p>
 					</div>
 
-					<div class="col-md-3" style="background-color: #f5faff">
+					<div class="col-md-3 col-sm-3 col-xs-3" style="background-color: #f5faff;height: 184px">
 						<span class="bhk price-bg"> ₹ 45,000  </span>
-						<a href="#">Book Pakcers and Movers</a>
+						<div id="header">
+							<div id="header-content"><a href="#" style="">Book Pakcers and Movers</a></div>
+						</div>
+						
 					</div>
 
 				</div>
 
-				<div class="row row-no-gutters" style="margin-top: 7px;">
-					<div class="col-md-3">
+
+				<div class="row row-no-gutters is-flex" style="margin-top: 7px;">
+					<div class="col-md-3 col-sm-3 col-xs-3">
 						<img src="image2.jpg" style="width: 100%;height: 100%">
 					</div>
 
-					<div class="col-md-6" style="background-color: white;padding-left: 10px">
+					<div class="col-md-6 col-sm-6 col-xs-6" style="background-color: white;padding-left: 10px">
 						<a href="#" class="main-link">Navrangpura, Ahmedabad West, Ahmedabad</a>
 						<p>
 							<span style="font-weight: bold;">Ahmedabad</span> 
@@ -189,11 +197,12 @@
 						<p><span style="color: orange">first seen yesterday</span> on MAKAAN</p>
 					</div>
 
-					<div class="col-md-3" style="background-color: #f5faff;">
+					<div class="col-md-3 col-sm-3 col-xs-3" style="background-color: #f5faff;height: 184px">
 						<span class="bhk price-bg"> ₹ 55,000 </span>
-						<a href="#">Book Pakcers and Movers</a>
+						<div id="header">
+							<div id="header-content"><a href="#" style="">Book Pakcers and Movers</a></div>
+						</div>
 					</div>
-
 				</div>
 				
 			</div>
