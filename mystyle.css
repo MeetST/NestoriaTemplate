@@ -1,0 +1,43 @@
+.header {
+  overflow: hidden;
+  background-color: #0073d9;
+  padding: 10px 10px;
+  color: White;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.extra-margin{
+	margin-right: 10px;
+}
+
+.btn-fl{
+	background-color: #0073d9; 
+	display: block;
+    width: 100%;
+	color:white; 
+	padding: 5px 13px;
+}
+
+.btn-am{
+	color:#0073d9;
+	display: block;
+	width: 100%;
+	background-color: white;
+	box-shadow: none;
+	padding: 5px 13px;
+}
+.box-frsl{
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid;
+  font-size: 16px;
+  cursor: pointer;
+}
